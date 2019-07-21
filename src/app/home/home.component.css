@@ -1,0 +1,19 @@
+.cntnr{
+    border: 1px solid burlywood;
+    background: #F3E2A9;
+    margin-top: 20px;
+    width: 50%;
+    float: right;
+}
+.hdr{
+    background: #0B3861;
+    color: white;
+    text-align: center;
+}
+.prg{
+    float: left;
+    width: 45%;
+    clear: both;
+    padding-left: 5px;
+    
+}
