@@ -10,6 +10,7 @@ import { FaqComponent } from './faq/faq.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

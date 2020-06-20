@@ -29,7 +29,7 @@
       <p>The interests of the community, The Howard Hughes Corporation and other stakeholders are aligned. We all want to see Landmark return to its position as a vital and thriving community destination and gathering space.</p>
       <p>Landmark’s redevelopment is a complex project with myriad intricacies—but one that is possible with both private and public support. The Howard Hughes Corporation continues to work with city officials to advance the redevelopment.</p>
     </div>
-      <form class="cntnr"> 
+     <!----<form class="cntnr"> 
         <div class="hdr"><h2>What’s next?</h2></div>
         <p>We'd like to keep you informed about the redevelopment of Landmark Mall. Please register to recbeive news and updates.</p>
           <div class="form-group">
@@ -60,4 +60,21 @@
             
             
             <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </form>-->
+          <button class="btn btn-primary" (click)="getstudentList()">Get student List</button>
+          <div>
+            <table class="table table-stipe">
+              <tr>
+                <th>First Name</th>
+                <th>Last tName</th>
+                <th>Age</th>
+                <th>Grade</th>
+              </tr>
+              <tr *ngFor="let st of studentList">
+                <td>{{st.firstName}}</td>
+                <td>{{st.lastName}}</td>
+                <td>{{st.age}}</td>
+                <td>{{st.grade}}</td>
+              </tr>
+            </table>
+          </div>
