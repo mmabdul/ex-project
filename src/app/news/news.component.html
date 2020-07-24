@@ -16,23 +16,12 @@
     <button class="btn btn-warning">Warning</button>
     <button class="btn btn-danger">Danger</button>
     <button class="btn btn-default">Default</button>
-    
-    <div class="alert alert-primary" role="alert">
-      A simple primary alert—check it out!
-    </div>
-    
-  <div class="container-sm">100% wide until small breakpoint></div>
-<div class="container-md">100% wide until medium breakpoint</div>
-<div class="container-lg">100% wide until large breakpoint</div>
-<div class="container-xl">100% wide until extra large breakpoint</div>
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+    <div>
+    @include media-breakpoint-only(xs) { ... }
+@include media-breakpoint-only(sm) { ... }
+@include media-breakpoint-only(md) { ... }
+@include media-breakpoint-only(lg) { ... }
+@include media-breakpoint-only(xl) { ... }
 </div>
 
 </body>
